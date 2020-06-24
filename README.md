@@ -6,5 +6,5 @@ Download Processing from [processing.org](https://processing.org/). Open any ske
 
 ## Issues
 Contact me: 
-  1. (phultquist@imsa.edu)[mailto:phultquist@imsa.edu]
-  2. (patrick.hultquist@icloud.com)[mailto:patrick.hultquist@icloud.com]
+  1. [phultquist@imsa.edu](mailto:phultquist@imsa.edu)
+  2. [patrick.hultquist@icloud.com](mailto:patrick.hultquist@icloud.com)
