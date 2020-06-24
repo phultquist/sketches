@@ -1,0 +1,27 @@
+class Choice{
+  String q;
+  
+  Choice(String question, String opt1, String opt2){
+    q = question;
+  }
+  
+  void show(){ 
+    fill (51);
+    rectMode(CORNERS);
+    rect(w/2-200,h/2+200,w/2+200,h/2-200, 10);
+    fill (255);
+    textAlign(CENTER);
+    textSize(20);
+    text(q,w/2,h/2-100);
+  }
+  
+  void hide(){
+    
+  }
+}
+
+class Button{
+  Button(String text, int w, int h){
+    
+  }
+}

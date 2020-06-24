@@ -1,0 +1,60 @@
+class Choice{
+  String q;
+  String o;
+  String t;
+  boolean hidden = true;
+  
+  Choice(String question, String opt1, String opt2){
+    q = question;
+    o = opt1;
+    t = opt2;
+  }
+  
+  void show(){
+    hidden = false;
+    run();
+  }
+  
+  void run(){ 
+    if (!hidden){
+      noStroke();
+      fill (51);
+      rectMode(CORNERS);
+      rect(w/2-200,h/2+200,w/2+200,h/2-200, 10);
+      fill (255);
+      textAlign(CENTER, CENTER);
+      textSize(20);
+      text(q,w/2,h/2-100);
+      showChoices();
+    }
+  }
+  
+  void hide(){
+    hidden = true;
+  }
+  
+  void showChoices(){
+    stroke(255);
+    noFill();
+    new Button(w/2 - 112, 530, o);
+    new Button(w/2 + 112, 530, t);
+    //rect(w/2-150, h/2+100,w/2-50,h/2+150);
+    //rect(w/2-150, h/2+100,w/2-50,h/2+150);
+  }
+}
+
+class Button{
+  boolean clicked = false;
+  Button(int x, int y, String text){
+    stroke(255);
+    noFill();
+    rectMode(CENTER);
+    
+    rect(x, y, 100, 50);
+    text(text, x, y);
+  }
+  
+  boolean checkIfSelected(){
+    return (mouseX < );
+  }
+}
